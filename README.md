@@ -13,6 +13,6 @@ Here's a list of projects included in this repository:
    - Description: This project aims to predict the survival of passengers aboard the Titanic based on various features such as age, sex, passenger class, and embarkation port.
    - Techniques Used: 
      - Data preprocessing: Handling missing values, encoding categorical features
-     - Feature engineering: Creating new features like family size
+     - Feature engineering: Imputing missing ages and creating new features such as one-hot encoding for categorical variables (Embarked and Sex)
      - Model selection: Random Forest Classifier
    - Results: Achieved an accuracy score of 0.78468 on the Kaggle leaderboard.
